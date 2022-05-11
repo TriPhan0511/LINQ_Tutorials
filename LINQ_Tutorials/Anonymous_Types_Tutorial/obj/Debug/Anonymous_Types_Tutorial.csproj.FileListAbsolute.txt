@@ -1,0 +1,8 @@
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\bin\Debug\Anonymous_Types_Tutorial.exe.config
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\bin\Debug\Anonymous_Types_Tutorial.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\bin\Debug\Anonymous_Types_Tutorial.pdb
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\obj\Debug\Anonymous_Types_Tutorial.csproj.AssemblyReference.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\obj\Debug\Anonymous_Types_Tutorial.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\obj\Debug\Anonymous_Types_Tutorial.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\obj\Debug\Anonymous_Types_Tutorial.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Anonymous_Types_Tutorial\obj\Debug\Anonymous_Types_Tutorial.pdb
