@@ -85,7 +85,8 @@ namespace Second_LINQ_Tuotorial
             ////Tucker, Michael
             ////Zabokritski, Eugene
 
-            Orderby_Clause_Tutorial.OrderBySample1();
+            //Orderby_Clause_Tutorial.OrderBySample1();
+            Orderby_Clause_Tutorial_2.Show();
         }
 
 
