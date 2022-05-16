@@ -1,0 +1,8 @@
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\bin\Debug\Testing.exe.config
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\bin\Debug\Testing.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\bin\Debug\Testing.pdb
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\obj\Debug\Testing.csproj.AssemblyReference.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\obj\Debug\Testing.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\obj\Debug\Testing.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Testing\obj\Debug\Testing.pdb

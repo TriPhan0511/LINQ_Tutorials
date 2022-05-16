@@ -5,11 +5,13 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Tutorials", "LINQ_Tutorials\LINQ_Tutorials.csproj", "{5C0F7222-D709-4756-87F6-6C0E08D52B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second_LINQ_Tuotorial", "Second_LINQ_Tuotorial\Second_LINQ_Tuotorial.csproj", "{C8309035-183E-4B2E-AC24-3764FB2F2D1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Tutorials_2", "Second_LINQ_Tuotorial\LINQ_Tutorials_2.csproj", "{C8309035-183E-4B2E-AC24-3764FB2F2D1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anonymous_Types_Tutorial", "Anonymous_Types_Tutorial\Anonymous_Types_Tutorial.csproj", "{B850F833-E329-4BF9-874B-A29CB1EEC443}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Initializer_and_Collection_Initializer_Tutorial", "Object_Initializer_and_Collection_Initializer_Tutorial\Object_Initializer_and_Collection_Initializer_Tutorial.csproj", "{2EB30D22-9624-49E8-844B-54EB3C4B3A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{2E80469E-5C83-4715-88B9-5C018E1E96E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2EB30D22-9624-49E8-844B-54EB3C4B3A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB30D22-9624-49E8-844B-54EB3C4B3A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB30D22-9624-49E8-844B-54EB3C4B3A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E80469E-5C83-4715-88B9-5C018E1E96E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E80469E-5C83-4715-88B9-5C018E1E96E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E80469E-5C83-4715-88B9-5C018E1E96E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E80469E-5C83-4715-88B9-5C018E1E96E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

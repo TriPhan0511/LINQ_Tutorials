@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C8309035-183E-4B2E-AC24-3764FB2F2D1A}</ProjectGuid>
+    <ProjectGuid>{2E80469E-5C83-4715-88B9-5C018E1E96E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Second_LINQ_Tuotorial</RootNamespace>
-    <AssemblyName>Second_LINQ_Tuotorial</AssemblyName>
+    <RootNamespace>Testing</RootNamespace>
+    <AssemblyName>Testing</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Group_Clause_Tutorial.cs" />
-    <Compile Include="Let_Clause_Tutorial.cs" />
-    <Compile Include="Orderby_Clause_Tutorial.cs" />
-    <Compile Include="Orderby_Clause_Tutorial_2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Query_Syntax_and_Method_Syntax.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Where_Clause_Tutorial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,8 @@
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\bin\Debug\Second_LINQ_Tuotorial.exe.config
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\bin\Debug\Second_LINQ_Tuotorial.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\bin\Debug\Second_LINQ_Tuotorial.pdb
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\obj\Debug\LINQ_Tutorials_2.csproj.AssemblyReference.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\obj\Debug\LINQ_Tutorials_2.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\obj\Debug\LINQ_Tutorials_2.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\obj\Debug\Second_LINQ_Tuotorial.exe
+D:\Studying\DotNet\LINQ_Tutorials\LINQ_Tutorials\Second_LINQ_Tuotorial\obj\Debug\Second_LINQ_Tuotorial.pdb

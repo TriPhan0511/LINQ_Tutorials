@@ -84,79 +84,78 @@ namespace Second_LINQ_Tuotorial
             ////Omelchenlko, Svetlana
             ////Tucker, Michael
             ////Zabokritski, Eugene
+            //---------------------------------------------------------------------------------------
 
             //Orderby_Clause_Tutorial.OrderBySample1();
-            Orderby_Clause_Tutorial_2.Show();
-        }
+            //Orderby_Clause_Tutorial_2.Show();
+            //---------------------------------------------------------------------------------------
 
+            //Group_Clause_Tutorial.Show();
+            //---------------------------------------------------------------------------------------
 
+            //Let_Clause_Tutorial.Show();
+            //---------------------------------------------------------------------------------------
 
+            //Query_Syntax_and_Method_Syntax.Show();
+            //---------------------------------------------------------------------------------------
 
+            // To transform or project in the select clause
+            // It is very common for a query to produce a sequence whose element differ from
+            // the elements in the source sequences.
 
+            //IEnumerable<string> studentQuery7 =
+            //    from student in students
+            //    where student.Last == "Garcia"
+            //    select student.First;
 
+            //Console.WriteLine("The Garcias in the class are:");
+            //foreach (string firstName in studentQuery7)
+            //{
+            //    Console.WriteLine(firstName);
+            //}
 
+            //// Output:
+            ////The Garcias in the class are :
+            ////Caesar
+            ////Debra
+            ////Hugo
+            ////---------------------------------------------------------------------------------------
 
+            // Use an anonymous type
+            // To produce a sequence of Students whose total score is greater than the class average,
+            // together with their Student ID, you can use an anonymous type in the select statement.
 
+            var studentQuery6 =
+                from student in students
+                let totalScore =
+                    student.Scores[0] +
+                    student.Scores[1] +
+                    student.Scores[2] +
+                    student.Scores[3]
+                select totalScore;
 
+            var averageScoreOfClass = studentQuery6.Average(); // 335.08
 
+            var studentQuery8 =
+                from student in students
+                let totalScore = student.Scores[0] + student.Scores[1] + student.Scores[2] + student.Scores[3]
+                where totalScore > averageScoreOfClass
+                select new { id = student.ID, score = totalScore };
 
-
-
-
-
-
-
-        //static void Main(string[] args)
-        //{
-        //    //// Get all students whose score on the first test was greater than 90.
-        //    //// Create a query expression
-        //    //// The first line could also be written as "var studentQuery = "
-        //    //IEnumerable<Student> studentQuery =
-        //    //    from student in students
-        //    //    where student.Scores[0] > 90
-        //    //    select student;
-
-        //    //// Execute the query expression
-        //    //foreach (var student in studentQuery)
-        //    //{
-        //    //    DisplayStudent(student);
-        //    //}
-
-        //    //var studentQuery2 =
-        //    //    from student in students
-        //    //    where student.Scores[0] > 90
-        //    //    select new { student.First, student.Scores };
-
-        //    //foreach (var student in studentQuery2)
-        //    //{
-        //    //    Console.WriteLine($"First name: {student.First}\nScore:");
-        //    //    foreach (var score in student.Scores)
-        //    //    {
-        //    //        Console.Write($"{score} ");
-        //    //    }
-        //    //    Console.WriteLine();
-        //    //}
-
-        //    //var studentQuery3 =
-        //    //   from student in students
-        //    //   where student.Scores[0] > 90
-        //    //   select new { name = $"{student.First} {student.Last}", firstTestScore = student.Scores[0] };
-
-        //    //foreach (var student in studentQuery3)
-        //    //{
-        //    //    Console.WriteLine($"Name: {student.name}, First Test Score: {student.firstTestScore}");
-        //    //}
-        //}
-
-        private static void DisplayStudent(Student student)
-        {
-            Console.WriteLine($"First: {student.First}, Last: {student.Last}, ID: {student.ID}");
-            Console.Write("Scores: ");
-            foreach (var score in student.Scores)
+            foreach (var item in studentQuery8)
             {
-                Console.Write($"{score} ");
+                Console.WriteLine($"ID: {item.id}, Total Score: {item.score}");
             }
-            Console.WriteLine();
+
+            // Output:
+            //ID: 113, Total Score: 338
+            //ID: 114, Total Score: 353
+            //ID: 116, Total Score: 369
+            //ID: 117, Total Score: 352
+            //ID: 118, Total Score: 343
+            //ID: 119, Total Score: 338
+            //ID: 120, Total Score: 341
+            //ID: 122, Total Score: 368
         }
 
         // Create a data source by using a collection initializer
@@ -175,21 +174,5 @@ namespace Second_LINQ_Tuotorial
             new Student { First = "Eugene", Last = "Zabokritski", ID = 121, Scores = new List<int> { 96, 85, 91, 60 } },
             new Student { First = "Michael", Last = "Tucker", ID = 122, Scores = new List<int> { 94, 92, 91, 91 } },
         };
-
-        // Display content of a list of students
-        private static void DisplayStudents(List<Student> students)
-        {
-            foreach (var stu in students)
-            {
-                Console.WriteLine($"First: {stu.First}, Last: {stu.Last}, ID: {stu.ID}");
-                Console.Write("Scores: ");
-                foreach (var score in stu.Scores)
-                {
-                    Console.Write($"{score} ");
-                }
-                Console.WriteLine();
-            }
-        }
-
     }
 }
