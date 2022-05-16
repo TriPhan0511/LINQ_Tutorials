@@ -4,38 +4,100 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Testing.Business;
+using Testing.Data;
+
+using Testing.Utilities;
+
 namespace Testing
 {
     internal class Program
     {
-
-        static void Main(string[] args)
+        static void Main(string[] strings)
         {
-            /*
-                This code reverses a message, counts the number of times
-                a particular character appears, then prints the results
-                to the console window.
-            */
-            string originalMessage = "The quick brown fox jumps over the lazy dog.";
-
-            char[] message = originalMessage.ToCharArray();
-            Array.Reverse(message);
-
-            int letterCount = 0;
-
-            foreach (char letter in message)
+            int[] numbers = { 4, 8, 15, 16, 23, 42 };
+            int total = 0;
+            bool found = false;
+            foreach (int number in numbers)
             {
-                if (letter == 'o')
+                total += number;
+                if (number == 42)
                 {
-                    letterCount++;
+                    found = true;
                 }
             }
-
-            string newMessage = new string(message);
-
-            Console.WriteLine(newMessage);
-            Console.WriteLine($"'o' appears {letterCount} times.");
+            if (found)
+            {
+                Console.WriteLine("Set contains 42");
+            }
+            Console.WriteLine($"Total: {total}");
         }
+
+        //static void Main(string[] strings)
+        //{
+        //    string value = "Microsoft Learn";
+        //    //string reservedValue = Reserve_0(value);
+        //    //string reservedValue = Utility.Reverse_1(value);
+        //    //string reservedValue = Utilities.Utility.Reverse(value);
+        //    string reservedValue = Utility.Reverse(value);
+        //    Console.WriteLine(reservedValue);
+        //}
+
+        //private static string Reserve_0(string value)
+        //{
+        //    char[] letters = value.ToCharArray();
+        //    Array.Reverse(letters);
+        //    return new string(letters);
+        //}
+
+
+        //static void Main(string[] strings)
+        //{
+        //    Business.Class1.SayHello();
+        //    Data.Class1.SayAloha();
+        //}
+
+
+        //static void Main(string[] args)
+        //{
+        //    bool flag = true;
+        //    int value = 0;
+        //    if (flag)
+        //    {
+        //        value = 10;
+        //        Console.WriteLine($"Inside the code block: {value}");
+        //    }
+        //    Console.WriteLine($"Outside the code block: {value}");
+        //}
+
+
+        //static void Main(string[] args)
+        //{
+        //    /*
+        //        This code reverses a message, counts the number of times
+        //        a particular character appears, then prints the results
+        //        to the console window.
+        //    */
+        //    string originalMessage = "The quick brown fox jumps over the lazy dog.";
+
+        //    char[] message = originalMessage.ToCharArray();
+        //    Array.Reverse(message);
+
+        //    int letterCount = 0;
+
+        //    foreach (char letter in message)
+        //    {
+        //        if (letter == 'o')
+        //        {
+        //            letterCount++;
+        //        }
+        //    }
+
+        //    string newMessage = new string(message);
+
+        //    Console.WriteLine(newMessage);
+        //    Console.WriteLine($"'o' appears {letterCount} times.");
+        //}
 
         //static void Main(string[] args)
         //{
@@ -164,4 +226,14 @@ namespace Testing
         //}
 
     }
+
+    //internal class Utility
+    //{
+    //    internal static string Reverse_1(string value)
+    //    {
+    //        char[] letters = value.ToCharArray();
+    //        Array.Reverse(letters);
+    //        return new string(letters);
+    //    }
+    //}
 }
