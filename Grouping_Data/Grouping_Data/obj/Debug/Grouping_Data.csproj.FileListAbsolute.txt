@@ -1,0 +1,8 @@
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\bin\Debug\Grouping_Data.exe.config
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\bin\Debug\Grouping_Data.exe
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\bin\Debug\Grouping_Data.pdb
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\obj\Debug\Grouping_Data.csproj.AssemblyReference.cache
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\obj\Debug\Grouping_Data.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\obj\Debug\Grouping_Data.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\obj\Debug\Grouping_Data.exe
+D:\Studying\DotNet\LINQ_Tutorials\Grouping_Data\Grouping_Data\obj\Debug\Grouping_Data.pdb
