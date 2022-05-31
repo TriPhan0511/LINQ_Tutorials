@@ -1,0 +1,8 @@
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\bin\Debug\Filtering_Data.exe.config
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\bin\Debug\Filtering_Data.exe
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\bin\Debug\Filtering_Data.pdb
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\obj\Debug\Filtering_Data.csproj.AssemblyReference.cache
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\obj\Debug\Filtering_Data.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\obj\Debug\Filtering_Data.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\obj\Debug\Filtering_Data.exe
+D:\Studying\DotNet\LINQ_Tutorials\Filtering_Data\Filtering_Data\obj\Debug\Filtering_Data.pdb
