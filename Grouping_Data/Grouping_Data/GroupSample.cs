@@ -35,45 +35,59 @@ namespace Grouping_Data
                     group word by word[0] into g
                     orderby g.Key
                     select g;
+
+            *** Enumerating the results of a group query
+            Because IGrouping<TKey,TElement> objects produced by a group query are essentially a list of lists,
+            you must use a nested foreach loop to access the items in each group. The outer loop iterates over
+            the group keys, and the inner loop iterates over each item in the group itself. A group may have a
+            key but no elements. The following is the foreach loop that executes the query in the previous code examples:
+                foreach (IGrouping<char, string> group in query)
+                {
+                    Console.WriteLine($"Words start with '{group.Key}':");
+                    foreach (string word in group)
+                    {
+                        Console.WriteLine($"\t{word}");
+                    }
+                }
          */
 
         ////-----------------------------------------------------------------------------------------------------------------
-        public static void Main(string[] strings)
-        {
-            string[] words = { "hello", "Hi", "aloha", "good morning", "good night", "have a nice day" };
+        //public static void Main(string[] strings)
+        //{
+        //    string[] words = { "hello", "Hi", "aloha", "good morning", "good night", "have a nice day" };
 
-            // Query syntax
-            IEnumerable<IGrouping<char, string>> query =
-                from word in words
-                group word by word[0] into g
-                orderby g.Key
-                select g;
+        //    // Query syntax
+        //    IEnumerable<IGrouping<char, string>> query =
+        //        from word in words
+        //        group word by word[0] into g
+        //        orderby g.Key
+        //        select g;
 
-            //// Method syntax
-            //IEnumerable<IGrouping<char, string>> query =
-            //    words.GroupBy(word => word[0]).OrderBy(g => g.Key);
+        //    //// Method syntax
+        //    //IEnumerable<IGrouping<char, string>> query =
+        //    //    words.GroupBy(word => word[0]).OrderBy(g => g.Key);
 
-            foreach (IGrouping<char, string> group in query)
-            {
-                Console.WriteLine($"Words start with '{group.Key}':");
-                foreach (string word in group)
-                {
-                    Console.WriteLine($"\t{word}");
-                }
-            }
+        //    foreach (IGrouping<char, string> group in query)
+        //    {
+        //        Console.WriteLine($"Words start with '{group.Key}':");
+        //        foreach (string word in group)
+        //        {
+        //            Console.WriteLine($"\t{word}");
+        //        }
+        //    }
 
-            // Output:
-            //Words start with 'H':
-            //        Hi
-            //Words start with 'a':
-            //        aloha
-            //Words start with 'g':
-            //        good morning
-            //        good night
-            //Words start with 'h':
-            //        hello
-            //        have a nice day
-        }
+        //    // Output:
+        //    //Words start with 'H':
+        //    //        Hi
+        //    //Words start with 'a':
+        //    //        aloha
+        //    //Words start with 'g':
+        //    //        good morning
+        //    //        good night
+        //    //Words start with 'h':
+        //    //        hello
+        //    //        have a nice day
+        //}
 
         ////-----------------------------------------------------------------------------------------------------------------
         //public static void Main(string[] strings)

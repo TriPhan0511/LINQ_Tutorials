@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="GroupSample.cs" />
     <Compile Include="GroupSample0.cs" />
+    <Compile Include="GroupSample1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
